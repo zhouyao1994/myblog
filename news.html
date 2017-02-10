@@ -2,9 +2,17 @@
 layout: default
 ---
 
-<h1> 这是新闻页面</h1>
+<h1> 这是tips页面</h1>
 <ul>
-    {% for new in site.posts%}
+    {% for new in site.categories.tips%}
+        <li>
+            <a href="">{{new.title}}</a>
+        </li>
+    {% endfor %}
+</ul>
+<h1> 这是news页面</h1>
+<ul>
+    {% for new in site.categories.news%}
         <li>
             <a href="">{{new.title}}</a>
         </li>
