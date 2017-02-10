@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<h1> 这是新闻页面</h1>
+<ul>
+    {% for new in site.posts%}
+        <li>
+            <a href="">{{new.title}}</a>
+        </li>
+    {% endfor %}
+</ul>
