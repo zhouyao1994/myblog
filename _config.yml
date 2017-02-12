@@ -1,2 +1,2 @@
-baseurl: ""
+baseurl: "/myblog"
 exclude: ['README.md']
