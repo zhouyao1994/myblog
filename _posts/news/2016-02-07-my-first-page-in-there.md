@@ -21,3 +21,6 @@ category: news
 2. 打开sqlite， debug模式
 3. evaluation 观察
 4. bookmark利于跳转
+
+# 下面是有用的截图
+![有帮助的截图]({{ site.url }}/assets/2017-02-04_005.png)
