@@ -23,4 +23,4 @@ category: news
 4. bookmark利于跳转
 
 # 下面是有用的截图
-![有帮助的截图]({{ site.url }}/assets/2017-02-04_005.png)
+![有帮助的截图]({{ site.baseurl }}/assets/2017-02-04_005.png)

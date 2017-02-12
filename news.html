@@ -6,7 +6,7 @@ layout: default
 <ul>
     {% for new in site.categories.tips%}
         <li>
-            <a href="/{{new.url}}">{{new.title}}</a>
+            <a href="{{ site.baseurl }}{{new.url}}">{{new.title}}</a>
         </li>
     {% endfor %}
 </ul>
@@ -14,7 +14,7 @@ layout: default
 <ul>
     {% for new in site.categories.news%}
         <li>
-            <a href="/{{new.url}}">{{new.title}}</a>
+            <a href="{{ site.baseurl }}{{new.url}}">{{new.title}}</a>
         </li>
     {% endfor %}
 </ul>
